@@ -148,12 +148,26 @@ chạy trên cột đã bỏ dấu sẽ trả về đoạn trích mất hết d�
 ├── corpus/             crawler + manifest 40 văn bản
 ├── data/               base_data.json (3.844 Điều luật)
 ├── eval/               khung đánh giá retrieval/QA (xem eval/README.md)
-├── docs/               tài liệu khóa luận
+├── docs/               tài liệu dự án + khóa luận (xem mục Tài liệu bên dưới)
 ├── Baocao/             khóa luận LaTeX
 └── docker-compose.yml
 ```
 
 Chi tiết quy ước dự án (config, path cố định, quy trình dev) xem [`CLAUDE.md`](CLAUDE.md).
+
+## Tài liệu & định hướng sản phẩm
+
+Codebase hiện tại là bài thi R2AI đã chuyển hướng thành sản phẩm thật. Các
+tài liệu dưới đây là **kế hoạch/kiến trúc mục tiêu**, chưa phải mô tả trạng
+thái hiện tại — xem bảng Tính năng ở trên để biết cái gì đã chạy thật.
+
+| Tài liệu | Nội dung |
+| --- | --- |
+| [`docs/MVP_PRODUCT_ARCHITECTURE.md`](docs/MVP_PRODUCT_ARCHITECTURE.md) | Định vị sản phẩm, agentic RAG, mô hình vai trò/phân quyền, eval (RAGAS), observability (Langfuse), roadmap MVP→V1→V2, triển khai AWS |
+| [`docs/architecture.md`](docs/architecture.md) | Sơ đồ Mermaid chi tiết: component diagram, flow agentic RAG, pipeline đồng bộ văn bản, ERD, CI/CD, flow cho từng tính năng mở rộng |
+| [`docs/FEATURES.md`](docs/FEATURES.md) | Flow + API contract + data model cho 12 tính năng mở rộng (mời thành viên, cảnh báo thay đổi luật, escalation, Zalo OA, API đối tác...) |
+| [`docs/KE_HOACH_DU_AN.md`](docs/KE_HOACH_DU_AN.md) | Kế hoạch gốc cho cuộc thi R2AI Stage 1 |
+| [`docs/CUONG_LINH_KHOA_LUAN.md`](docs/CUONG_LINH_KHOA_LUAN.md) | Đề cương khóa luận |
 
 ## Kiểm thử
 
