@@ -144,11 +144,16 @@ chạy trên cột đã bỏ dấu sẽ trả về đoạn trích mất hết d�
 │   ├── tests/          pytest
 │   └── config.yaml
 ├── frontend/           Vite + React SPA
+├── reference/ui-nextjs/ UI Next.js tham khảo
 ├── corpus/             crawler + manifest 40 văn bản
 ├── data/               base_data.json (3.844 Điều luật)
+├── eval/               khung đánh giá retrieval/QA (xem eval/README.md)
 ├── docs/               tài liệu khóa luận
+├── Baocao/             khóa luận LaTeX
 └── docker-compose.yml
 ```
+
+Chi tiết quy ước dự án (config, path cố định, quy trình dev) xem [`CLAUDE.md`](CLAUDE.md).
 
 ## Kiểm thử
 
